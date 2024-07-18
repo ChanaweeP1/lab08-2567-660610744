@@ -6,7 +6,7 @@
 
 ชื่อ-สกุล :ชนวีร์ ปินทะยา
 
-Vercel URL :
+Vercel URL : lab08-2567-660610744.vercel.app
 
 ---
 
