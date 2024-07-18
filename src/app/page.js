@@ -6,9 +6,9 @@ import { Footer } from '../../component/Footer';
 
 export default function Home() {
     const tasks=[
-        {id : 1 , title: "Read a book", isDone: true },
-        {id : 2 , title: "Take a shower", isDone: false },
-        {id : 3 , title: "Sleep", isDone: false }
+        {id : 1 , title: "Read a book", isdone: true },
+        {id : 2 , title: "Take a shower", isdone: false },
+        {id : 3 , title: "Sleep", isdone: false }
     ];
     return (
         // Main container
