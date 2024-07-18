@@ -5,6 +5,11 @@ import { Footer } from '../../component/Footer';
 
 
 export default function Home() {
+    const tasks=[
+        {id : 1 , title: "Read a book", isDone: true },
+        {id : 2 , title: "Take a shower", isDone: false },
+        {id : 3 , title: "Sleep", isDone: false }
+    ];
     return (
         // Main container
         <div className = "container mx-auto"> 
@@ -15,9 +20,9 @@ export default function Home() {
         {/* task input */} 
             <Taskinput/>
         {/* task */} 
-            <Task title = "Read a book"   isdone = "true"/>
-            <Task title = "Take a shower" isdone = "false"/>
-            <Task title = "Sleep" isdone = "false"/> 
+            <Task title {...tasks[0]} />
+            <Task title {...tasks[1]} />
+            <Task title {...tasks[2]} /> 
         {/*footer section */} 
             <Footer year = "2024" fullname = "Chanawee Pintaya" studentid = "660610744"/>
             </div>  
