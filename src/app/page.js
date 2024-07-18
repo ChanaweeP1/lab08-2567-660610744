@@ -15,9 +15,9 @@ export default function Home() {
         {/* task input */} 
             <Taskinput/>
         {/* task */} 
-            <Task title = "Read a book"  isdone : true/>
-            <Task title = "Take a shower" isdone : true/>
-            <Task title = "Sleep" isdone : true/> 
+            <Task title = "Read a book"   isdone = "true"/>
+            <Task title = "Take a shower" isdone = "false"/>
+            <Task title = "Sleep" isdone = "false"/> 
         {/*footer section */} 
             <Footer year = "2024" fullname = "Chanawee Pintaya" studentid = "660610744"/>
             </div>  
